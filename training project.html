@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billy Training Project 1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #header{
+        display: flex;
+        justify-content: space-between;
+        background-color: aqua;
+      }
+      #header ul{
+        display: flex;
+        margin: 7px;
+        gap: 25px;
+      }
+      #main-container {
+        border: 2px solid black;
+        width: 550px;
+        margin: 50px auto;
+      }
+      #heading {
+        font-size: 65px;
+        border-bottom: 2px solid;
+        text-align: center;
+        font-weight: 900;
+        margin: 0 6px;
+        padding: 0 0 5px;
+        line-height: 63px;
+      }
+      #one {
+        border-bottom: 15px solid;
+        margin: 0 6px;
+      }
+      #one p {
+        font-size: 30px;
+        line-height: 35px;
+      }
+      #one h2 {
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+        padding: 0 0 10px 0;
+      }
+      #two{
+        border-bottom: 8px solid;
+        margin: 0 6px;
+      }
+      #two h5{
+        font-weight: 900;
+        line-height: 30px;
+      }
+      #two h2{
+        display: flex;
+        justify-content: space-between;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 30px;
+        padding: 0 0 10px 0; 
+      }
+      #two span{
+        font-size: 50px;
+      }
+
+      #threeA {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 6px;
+        border-bottom: 1px solid;
+        
+      }
+      .bold2{
+       font-weight: 900;
+       text-align: right;
+       
+      }
+      .bold {
+        font-weight: 900;
+        
+      }
+      .light {
+        font-weight: 400;
+      }
+      .letter{
+        font-weight: 400;
+        padding: 0 25px;
+      }
+      .letter2{
+        font-weight: 400;
+        padding: 0 25px;
+        border-bottom: 1px solid;
+        margin: 0 30px;
+      }
+      #threeB{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 6px;
+        border-bottom: 15px solid;
+      }
+      #close{
+        padding: 5px;
+      }
+      #footer{
+        margin: 20px;
+        padding: 0 2px;"
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="header">
+     <ul>
+      <a href="https://google.com"><p>Home page</p></a>
+      <a href="address.html"><p>Service</p></a>
+      <a href="About.html"><p>About</p></a>
+      <a href="Contact.html"><p>Contact</p></a>
+     </ul> 
+     <a href="Sign page.html"><button>Sign in</button></a>
+    </nav>
+    <div id="main-container">
+      <h1 id="heading">Nutrition Facts</h1>
+      <div id="one">
+        <p>8 servings per container</p>
+        <h2>Serving size <span>2/3 cup (55g)</span></h2>
+      </div>
+      <div id="two">
+        <h5>Amount per serving</h5>
+        <h2>Calories 
+            <span>230</span>
+        </h2>
+      </div>
+      <h5 style="text-align: right; border-bottom: 1px solid; margin: 0 6px;">
+        % Daily Value*
+      </h5>
+      <h3 id="threeA">
+        <span class="bold">Total Fat <span class="light">8g</span></span>
+        <span class="per bold">10%</span>
+      </h3>
+
+      <h3 id="threeA"> <span class="letter">Saturated fat 1g</span> <span class="bold">5%</span></h3>
+
+      <h3 id="threeA"> <span class="letter"> <em>Trans</em> Fat 0g</span></h3>
+      <h3 id="threeA"> <span class="bold">Cholesterol <span class="light">0mg</span></span><span class="bold">0%</span></h3>
+      <h3 id="threeA"> <span class="bold">Sodium <span class="light">160mg</span></span>  <span class="bold">7%</span></h3>
+    
+      <h3 id="threeA"><span class="bold">Total Carbohydrate <span class="light">37g</span></span>  <span class="bold">13%</span></h3>
+      <h3 id="threeA"> <span class="letter">Dietary Fiber <span> 4g</span></span> <span class="bold">14%</span></h3>
+      <h3 id="threeA"> <span class="letter">Total Sugars 12g</span></h3>
+      <h3 id="threeA"> <span class="letter">Includes 10g Added sugars</span> <span class="bold">20%</span></h3>
+      <h3 id="threeB"> <span class="bold">Protein <span class="light"> 3g</span></span> </h3>
+      
+      <h3 id="threeA"><span class="light">Vitamin D 2mcg</span> <span class="light">10%</span></h3>
+      <h3 id="threeA"> <span class="light">Calcium 260mg</span><span class="light">20%</span></h3>
+      <h3 id="threeA"> <span class="light">Iron 8mg</span> <span class="light">45%</span></h3>
+      
+      <h3 id="threeA" style="border-bottom: 8px solid;"> <span class="light">Potassium 240mg</span> <span class="light">6%</span></h3>
+      <div id="close">
+        <h6>
+        * The % Daily Value(DV) tells you how much a nutrient in a serving of
+        food <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;contributes to a daily diet. 2,000 calories a
+        day is used for <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;general nutrition advice.
+      </h6>
+      </div>
+      
+    </div>
+    <section id="footer">
+      <h5>
+      <em>
+        (For educational purposes only. These labels do not meet the labelling
+        requirements decribed in 21 CFR 101.9.)
+      </em>
+    </h5>
+    </section>
+    
+  </body>
+</html>
